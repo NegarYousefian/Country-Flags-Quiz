@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.flag-container{
+    position: relative;
+    margin-top: 10vh;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    width: 50vw;
+    height: 40vh;
+    border: 1px solid black;
+    display: flex;
+
+}
+.item{
+    flex: 33%;
+}
+.question-container{
+    margin-top: 20vh;
+}
+.question-container ul li{
+    position: absolute;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;
+}
+.question-container button{
+    position: absolute;
+    width: 4vw;
+    height: 4vh;
+    margin-top: 10vh;
+    left: 50%;
+}
+.result-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    font-size: 1.5rem;
+}
